@@ -1,14 +1,16 @@
+//MODELL//
+
 let hansemann = {
 name: "Hansemann",
 health: 50,
-image: "/img/hansemann.png",
+image: "/image/hansemann.png",
 level: 20,
 };
 
 let jokkimsen = {
     name: "Jokkimsen",
     health: 100,
-    image: "/img/jokkimsen.png",
+    image: "/image/jokkimsen.png",
     level: 100,
 };
 
@@ -17,7 +19,7 @@ let jokkimsen = {
 let mundsen = {
     name: "Mundsen",
     health: 69,
-    image: "/img/mundsen2.jpg",
+    image: "/image/mundsen2.jpg",
     level: 420,
 };
 
@@ -39,26 +41,25 @@ let stefan = {
 let satan = {
     name: "Satan",
     health: 666,
-    image: "/img/satan.png",
+    image: "/image/satan.png",
     level: 1000,
 };
 
 let player = {
     name: "Champion",
-    image: "/img/satan.png",
-}
-
+    image: "/image/satan.png",
+};
 
 let possibleGpser = [hansemann, jokkimsen, mundsen, pørni, stefan, satan];
 let randomGpser;
 
-let playerName = "Bjarne";
-let playerImage = "/img/satan.png";
 let playerGpser = [];
 
 let app = document.getElementById("app");
 
 
+
+//VIEW//
 updateView();
 
 
@@ -74,8 +75,9 @@ function updateView(){
     </div>
 
     <div class="bottomScreen">
-    <div class="player"
-    <img src="${player.image}"></div>
+    <div class="player">
+    <img src="${player.image}">
+    <div>${player.name}</div>
     </div>
     
 
@@ -91,6 +93,8 @@ function updateView(){
 
     `;
 }
+
+//CONTROLLER//
 
 function caughtGpserView(){
     app.innerHTML = /*HTML*/ `
