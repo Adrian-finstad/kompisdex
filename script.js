@@ -3,14 +3,14 @@
 let hansemann = {
 name: "Hansemann",
 health: 50,
-image: "/image/hansemann.png",
+image: "image/hansemann.png",
 level: 20,
 };
 
 let jokkimsen = {
     name: "Jokkimsen",
     health: 100,
-    image: "/image/jokkimsen.png",
+    image: "image/jokkimsen.png",
     level: 100,
 };
 
@@ -19,7 +19,7 @@ let jokkimsen = {
 let mundsen = {
     name: "Mundsen",
     health: 69,
-    image: "/image/mundsen2.jpg",
+    image: "image/mundsen2.jpg",
     level: 420,
 };
 
@@ -41,13 +41,13 @@ let stefan = {
 let satan = {
     name: "Satan",
     health: 666,
-    image: "/image/satan.png",
+    image: "image/satan.png",
     level: 1000,
 };
 
 let player = {
     name: "Champion",
-    image: "/image/satan.png",
+    image: "image/Køllaferdig.jpg",
 };
 
 let possibleGpser = [hansemann, jokkimsen, mundsen, pørni, stefan, satan];

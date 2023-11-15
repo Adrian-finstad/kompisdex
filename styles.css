@@ -15,7 +15,7 @@ html::-webkit-scrollbar {
   font-size: 32px;
 }
 
-.opposingPokemon {
+.opposingGpser {
   margin-left: 50%;
 }
 
@@ -34,6 +34,7 @@ button {
 img {
   width: auto;
   height: 250px;
+  border: solid seagreen;
 }
 
 .bottomScreen {
